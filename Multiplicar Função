@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+
+MULTIPLICAR(int x, int y){
+	int M;
+	M = x*y;
+	
+	cout << M << endl;
+	return x*y;
+//	system ("pause");
+}
+
+
+int main(){
+	int x;
+	int y;
+	
+	cout << "Digite o valor de x:" <<endl;
+	cin >> x;
+	cout << "Digite o valor de y:" << endl;
+	cin >> y;
+	
+	MULTIPLICAR(x,y);
+	system("pause");	
+	return 0;
+}
